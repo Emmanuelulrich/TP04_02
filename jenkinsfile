@@ -1,7 +1,7 @@
 stage('Test Cases') {
  steps {
- sh 'python3 app.py 5'
- sh 'python3 app.py -3'
- sh 'python3 app.py 0'
+ sh '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" number_signe.py 5'
+ sh '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" number_signe.py -3'
+ sh '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" number_signe.py 0'
  }
 }
