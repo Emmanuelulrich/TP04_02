@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Run Script') {
+    stage('Test Cases') {
       steps {
           sh 'python3 number_signe.py 5'
           sh 'python3 number_signe.py -3'
