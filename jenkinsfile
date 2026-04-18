@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Test Cases') {
       steps {
-          bat '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"  \\"${WORKSPACE}\\number_signe.py\\" 5'
-          bat '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"  \\"${WORKSPACE}\\number_signe.py\\" -3'
-          bat '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"  \\"${WORKSPACE}\\number_signe.py\\" 0'
+          bat '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JENKINSFILE\\number_signe.py" 5'
+          bat '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JENKINSFILE\\number_signe.py" -3'
+          bat '"C:\\Users\\ELITEBOOK 850 G4\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\JENKINSFILE\\number_signe.py" 0'
        }
    }
  }
