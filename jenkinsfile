@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Test Cases') {
       steps {
-          sh 'python3 number_signe.py 5'
-          sh 'python3 number_signe.py -3'
-          sh 'python3 number_signe.py 0'
+          bat 'python number_signe.py 5'
+          bat 'python number_signe.py -3'
+          bat 'python number_signe.py 0'
        }
    }
  }
